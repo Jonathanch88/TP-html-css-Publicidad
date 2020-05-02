@@ -74,23 +74,22 @@ a {
   flex-direction: column;
   margin: 40px 40px;
   box-sizing: content-box;
+  min-width: 250px;
 }
 
 .imageOne {
   width: 100%;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-
 }
 
 .imageLogo {
-  opacity: 0.7;
+  opacity: 0.6;
   border-radius: 3px;
-  width: 40%;
+  max-width: 40%;
   position: absolute;
-  top: 108px;
+  top: 106px;
   left: 80px;
-
 }
 
 .Bottom h3 {
@@ -116,8 +115,6 @@ a {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     border-bottom-left-radius: 0px;
-
-
   }
 
   .topInfo {
@@ -126,13 +123,13 @@ a {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
-
   }
 
   .containerBottom {
     display: flex;
     overflow-x: scroll;
   }
+
   .Bottom {
     min-width: 250px;
   }
