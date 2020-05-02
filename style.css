@@ -128,10 +128,12 @@ a {
   .containerBottom {
     display: flex;
     overflow-x: scroll;
+    margin: 0 30px;
   }
 
   .Bottom {
     min-width: 250px;
+    margin: 40px 10px;
   }
 }
 
