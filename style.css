@@ -134,3 +134,11 @@ a {
     min-width: 250px;
   }
 }
+
+@media (max-width:414px) {
+
+  .topInfo {
+   padding: 30px;
+  }
+
+}
