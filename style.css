@@ -11,7 +11,6 @@ body {
   background-color: #f8f8f8;
 }
 
-
 .top {
   display: flex;
   box-shadow: 0px 0px 10px 8px #ddddddb2;
@@ -64,10 +63,7 @@ a {
 .containerBottom {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  
-  
-  
-}
+  }
 
 .Bottom {
   box-shadow: 0px 0px 10px 8px #ddddddb2;
